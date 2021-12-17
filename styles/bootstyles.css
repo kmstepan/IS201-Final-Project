@@ -1,0 +1,100 @@
+/* Kent Stepan - Last Edit: 12/16/2021 */
+
+nav {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+body {
+    font: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.menu {
+    display: flex;
+    border: solid 1px black;
+    flex-direction: row;
+    background-color: lightblue;
+   
+}
+
+.menu-header {
+    font-weight:bold;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    opacity: 50%;
+}
+
+.menu li{
+    text-align: left;
+    padding: 25px 25px;
+    height: 25px;
+    flex-grow: 1;
+    list-style: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 75px;
+    gap: 50px;
+    
+}
+
+.grid-item {
+    border: solid 1px black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#backtotop {
+    text-align: center;
+}
+#backtotop a {
+    color: black;
+    text-decoration: none;
+}
+#backtotop a:hover {
+    opacity: 50%;
+}
+
+#bottom {
+    text-align: center;
+}
+#bottom a {
+    color: black;
+    text-decoration: none;
+}
+#bottom a:hover {
+    opacity: 50%;
+}
+
+#otherposts {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#otherposts a {
+    color: black;
+    text-decoration: none;
+}
+
+#otherposts a:hover {
+    opacity: 50%
+}
+
+
+.footer {
+    display: flex;
+    border: solid 1px black;
+    flex-direction: column;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}

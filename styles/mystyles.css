@@ -1,0 +1,69 @@
+/* Kent Stepan - Last Edit: 12/16/2021 */
+
+#linkUnderline {
+    text-decoration: underline;
+}
+
+#KS {
+    font: inherit;
+    font-weight: bold;
+    color: white;
+}
+
+#contact {
+    text-align: center;
+    color:black;
+    font: inherit;
+}
+
+#backtotop {
+    text-decoration:underline;
+    text-align: center;
+}
+
+#otherposts {
+    text-align: center;
+}
+
+.center-img-horizontal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
+
+.center-img-vertical {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+.resume-header {
+    text-decoration: underline;
+}
+
+.resume-title {
+    font-weight: bold;
+    float: center;
+}
+
+.resume-date {
+    float: right;
+    font-weight: bold;
+}
+
+.resume-subtitle {
+    font-style: italic;
+}
+
+.resume-image {
+    width: 25%;
+    float: left;
+    margin: 5px 15px 10px 0px;
+}
+
+.resume-image:hover {
+    opacity: 0.5;
+}
+
